@@ -15,6 +15,13 @@ body {
   padding: 14px 16px;
   color: #f2f2f2;
 }
+.header a:hover {
+  background-color: burlywood;
+}
+// active tab example
+/* .header a.active {
+  background-color: burlywood;
+} */
 .destra {
   float: right;
 }
