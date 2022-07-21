@@ -1,10 +1,41 @@
 
 :root{
-  
+  /* Color palette */
+  --green-munsell: #1bab7dff;
+  --smoky-black: #0c0c08ff;
+  --old-lace: #f5f1e3ff;
+  --white: #ffffffff;
+
+  /* Fonts */
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+
   /* Font size */
   --mega: 155px;
   --big: 37px;
   --medium: 30px;
   --small: 25px;
   --mini: 20px;
+}
+/* Tablet */
+@media only screen and (min-width: 770px) {
+  :root{
+    --mega: 85px;
+    --big: 28px;
+    --medium: 25px;
+    --small: 18px;
+    --mini: 15px;
+  }
+}
+
+/* Phone */
+@media only screen and (min-width: 300px) {
+  :root{
+    --mega: 70px;
+    --big: 22px;
+    --medium: 20px;
+    --small: 16px;
+    --mini: 12px;
+  }
 }
